@@ -30,11 +30,12 @@
         android:hint="Input Full Name"/>
 
     <Button
-        android:layout_margin="10dp"
+        android:id="@+id/btn_save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_save"
-        android:text="Save"/>
+        android:layout_margin="10dp"
+        android:onClick="handleSaveButton"
+        android:text="Save" />
 
 
 </LinearLayout>
